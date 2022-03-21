@@ -11,7 +11,7 @@ body{
 
 .toolbox-cont{
  height: 5rem;
- background-color: rgb(180, 150, 17);
+ background-color: rgb(180, 123, 17);
  display: flex;
  align-items: center;
  
@@ -20,7 +20,7 @@ body{
 
 .toolbox-cont>*{
     margin-left: 4rem;
-    border-radius:1.5rem;
+    border-radius:3px;
 }
 
 .toolbox-priority-cont{
@@ -29,7 +29,7 @@ body{
     background-color:coral;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .action-btn-cont
@@ -37,6 +37,7 @@ body{
     height: 3.5rem;
     width: 7rem;
     background-color: crimson;
+    display: flex;
 }
 
 .action-btn-cont>*{
@@ -44,6 +45,7 @@ body{
     justify-content: center;
     align-items: center;
     width: 50%;
+    font-size: 2rem;
 }
 
 .color{
@@ -54,17 +56,21 @@ body{
 
 .lightpink{
     background-color: lightpink;
+    border-radius:3px;
 }
 
 .lightgreen{
     background-color: lightgreen;
+    border-radius:3px;
 }
 
 .lightblue{
     background-color: lightblue;
+    border-radius:3px;
 }
 
 .black{
     background-color: black;
+    border-radius:3px;
 }
 
