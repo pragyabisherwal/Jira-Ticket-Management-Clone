@@ -120,11 +120,36 @@ body{
 
 .main-cont{
     display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem;
 }
 
 .ticket-cont{
     height: 12rem;
     width: 15rem;
     background-color: coral;
+    
 }
+
+.ticket-color{
+    height: 1rem;
+    background-color: black;
+}
+
+.ticket-id{
+    height: 2rem;
+    background-color:rgb(255, 148, 106) ;
+    
+    
+}
+
+.task-area{
+    height: calc(100% - 1rem - 2rem);
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+
+
 
