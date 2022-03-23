@@ -118,3 +118,13 @@ body{
     border: 5px solid red;
 }
 
+.main-cont{
+    display: flex;
+}
+
+.ticket-cont{
+    height: 12rem;
+    width: 15rem;
+    background-color: coral;
+}
+
